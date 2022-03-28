@@ -1201,8 +1201,8 @@ if __name__ == "__main__":
 # pprint(data)
   timestamp =  int(time.time()*1000) + 4000000 - 310000 #+5000
   timestamp = int(time.time()*1000) + 2500
-  api_domain = {"live": "MSSbffFG1IWPkA1SZq", "test": "b1PEl6WF2IldIg4nGb"} #Ontario IP: "JOY4FE04n78T30XJ0r"}
-  secret = {"live": "wT32i3s7DXz7bv0gPILdh0ESQpTxoTVpZ8za", "test": "ka1afUc2iAPe4FR0KP7KtqHKYfWLm8216lQm"} #"h7UObGL1FcTYtezWuNH9qolfY32uSAVaShlC"}
+  api_domain = {"live": "", "test": ""} 
+  secret = {"live": "", "test": ""}
   url_domain = {"live": "https://api.bybit.com", "test": "https://api-testnet.bybit.com"}
 
   domain = "live"
