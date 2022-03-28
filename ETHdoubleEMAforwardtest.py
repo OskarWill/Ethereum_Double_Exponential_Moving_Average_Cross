@@ -1184,7 +1184,6 @@ def trade(host, param_str, symbol, interval, timestamp, params, limit, client, a
 
 
 if __name__ == "__main__":
-  #Sheets addres: bybitmacd1minbacktest@bybit-bitcoin-1--1612825321369.iam.gserviceaccount.com
 
   #GOOGLE SHEETS 
   scope = ['https://www.googleapis.com/auth/drive','https://www.googleapis.com/auth/drive.file','https://www.googleapis.com/auth/spreadsheets'] #authorization For Drive
